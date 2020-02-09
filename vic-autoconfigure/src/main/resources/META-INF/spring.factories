@@ -1,0 +1,5 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.vicframework.boot.autoconfigure.web.RestResponseAutoConfiguration,\
+com.vicframework.boot.autoconfigure.web.GlobalExceptionHandlerConfiguration,\
+com.vicframework.boot.autoconfigure.database.MyBatisPlusAutoConfiguration
