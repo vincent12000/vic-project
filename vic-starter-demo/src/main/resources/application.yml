@@ -8,4 +8,6 @@ spring:
 vic:
   database:
     mybatis:
-      mapper-scan-path: com.vic.starter.demo.dao
+      mapper-scan-path: com.vic.starter.demo
+mybatis-plus:
+  mapper-locations: classpath*:mapper/*Mapper.xml
